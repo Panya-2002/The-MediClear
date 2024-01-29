@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #050A8B;
+  --primary-dark: #13173A;
+  --primary-subtle: #718194;
+  --primary-background: #EAEBFF;
+}
+
+.primary {
+  color: var(--primary);
+}
+
+.primary-dark {
+  color: var(--primary-dark);
+}
+
+.primary-subtle {
+  color: var(--primary-subtle);
+}
+
+.primary-bg {
+  background-color: var(--primary-background);
+}
+
+.landing-container {
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
